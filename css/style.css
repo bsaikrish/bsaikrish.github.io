@@ -257,11 +257,11 @@ ul, ol { list-style: none; }
    =========================== */
 .page-hero {
   padding: calc(var(--header-h) + 4rem) 0 3rem;
-  border-bottom: 1px solid var(--border);
-  background: linear-gradient(to bottom, var(--muted-bg), var(--bg));
+  background: linear-gradient(135deg, hsl(222 70% 8%) 0%, hsl(222 60% 14%) 50%, #000 100%);
+  color: #fff;
 }
-.page-hero-title { font-size: clamp(2.5rem,8vw,4.5rem); font-weight: 300; letter-spacing: -.03em; margin-bottom: 1rem; }
-.page-hero-desc { max-width: 36rem; margin: 0 auto; color: var(--muted); font-weight: 300; font-size: 1.05rem; }
+.page-hero-title { font-size: clamp(2.5rem,8vw,4.5rem); font-weight: 300; letter-spacing: -.03em; margin-bottom: 1rem; color: #fff; }
+.page-hero-desc { max-width: 36rem; margin: 0 auto; color: hsla(217,100%,88%,.7); font-weight: 300; font-size: 1.05rem; }
 
 /* ===========================
    Achievements
@@ -377,11 +377,11 @@ ul, ol { list-style: none; }
 /* ===========================
    404
    =========================== */
-.not-found-main { min-height: calc(100vh - 8rem); display: flex; align-items: center; justify-content: center; padding: 2rem 1.5rem; }
+.not-found-main { min-height: calc(100vh - 8rem); display: flex; align-items: center; justify-content: center; padding: 2rem 1.5rem; background: linear-gradient(135deg, hsl(222 70% 8%) 0%, hsl(222 60% 14%) 50%, #000 100%); color: #fff; }
 .not-found-wrap { max-width: 36rem; width: 100%; text-align: center; }
 .not-found-num { font-size: clamp(6rem,20vw,11rem); font-weight: 200; letter-spacing: .1em; line-height: 1; opacity: .1; }
-.not-found-title { font-size: clamp(1.75rem,5vw,3rem); font-weight: 300; margin-top: -1.5rem; margin-bottom: 1rem; }
-.not-found-desc { color: var(--muted); font-weight: 300; margin-bottom: 2rem; }
+.not-found-title { font-size: clamp(1.75rem,5vw,3rem); font-weight: 300; margin-top: -1.5rem; margin-bottom: 1rem; color: #fff; }
+.not-found-desc { color: hsla(217,100%,88%,.7); font-weight: 300; margin-bottom: 2rem; }
 .not-found-line { height: 1px; width: 6rem; background: var(--border); margin: 2rem auto 0; }
 
 /* ===========================
